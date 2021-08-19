@@ -1,0 +1,11 @@
+span {
+  font-size: 1.5rem;
+}
+
+#personalPhoto {
+  max-width: 30rem;
+  height: auto;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}

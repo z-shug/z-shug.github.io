@@ -9,43 +9,59 @@
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- FontAwesome 5.15.3 CSS -->
-    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/cv.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dd54963a6c.js" crossorigin="anonymous"></script>
+   
     <!-- (Optional) Use CSS or JS implementation -->
  
   </head>
   <body>
-<!-- Nav tabs -->
-<ul class="nav nav-tabs|pills" id="navId" role="tablist">
-  <li class="nav-item">
-    <a href="/index.html"  class="nav-link">Home</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="https://z-shug.github.io/taskManager/" target="_blank">Task Manager</a>
-   
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#tab4Id">More to come</a>
-    </div>
-  </li>
-  <li>
-    <a href="/cv.html" class="nav-link active" class="nav-link active">CV</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a href="https://github.com/z-shug" class="nav-link" target="_blank" ><i class="fa fa-github me-2" aria-hidden="true"></i>Git Hub</a>
-  </li>
- 
-  <li class="nav-item" role="presentation">
-    <a href="https://www.linkedin.com/in/zoe-shugart/" target="_blank" class="nav-link"><i class="fab fa-linkedin me-2"></i>Linkedin</a>
-  </li>
-</ul>
+                   <!-- Nav tabs -->
+<div class="container-fluid  ml-5" id="navContainer">
+  <ul class="nav nav-tabs|pills navigation" id="navId" role="tablist">
+    <li class="nav-item">
+      <a href="/index.html"  class="nav-link">Home</a>
+    </li>
+    
+    <li>
+      <a href="/cv.html" class="nav-link active" class="nav-link active">CV</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="https://github.com/z-shug" class="nav-link" target="_blank" ><i class="fa fa-github me-2" aria-hidden="true"></i>Git Hub</a>
+    </li>
+  
+    <li class="nav-item" role="presentation">
+      <a href="https://www.linkedin.com/in/zoe-shugart/" target="_blank" class="nav-link"><i class="fab fa-linkedin me-2"></i>Linkedin</a>
+    </li>
+    <li class="nav-item dropdown mb-5">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://z-shug.github.io/taskManager/" target="_blank">Task Manager</a>
+    
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#tab4Id">More to come</a>
+      </div>
+    </li>
+  </ul>
+</div>
 
+
+
+            <!--******** Body *********-->
 <header>
-  <div class="name">
-    <h1> Zoe Shugart</h1>
-  </div>
+  <div class="row">
+  
+      <img src="./media/circular profile picture.png" class="mt-5 "  id="personalPhoto">
+     
+    
+  </div> 
 
+      <div class="name text-center mt-5" >
+        <h1> Zoe Shugart</h1>
+      </div>
+    
+</header>
 
   <div class="row">
     <div class="col-1 "></div>
@@ -59,16 +75,16 @@
         <div class="box">
           <h4>Junior Web Developer Course</h4>
           <h5>April 2021- July 2021</h5>
-          <h6>Developed and improved technical skills around Javascript, HTML, and CSS. Worked with industry standard productivity tools such as Git, Github, and Slack as well as Visual Studio Code.
-          </h6>
-          <h6>Graduated with Honors, and was invited to be the student graduation speaker with a top recommendation from our Master Instructor. </h6>
+          <p>Developed and improved technical skills around Javascript, HTML, and CSS. Worked with industry standard productivity tools such as Git, Github, and Slack as well as Visual Studio Code.
+          </p>
+          <p>Graduated with Honors, and was invited to be the student graduation speaker with a top recommendation from our Master Instructor. </p>
         </div>
       </div>
       <div class="row">
         <h3>Court of Master Sommeliers</h3>
         <h4>Level 2 Certified Sommelier</h4>
         <h5> January 2018-December 2018</h5>
-        <h6>Acquired information pertaining to global wine knowledge by rigorous self study as well as collaborative networking and group study. Very self motivated. Specialized in sales, attention to detail, information retention, memorization, and efficiency during high intensity settings.</h6>
+        <p>Acquired information pertaining to global wine knowledge by rigorous self study as well as collaborative networking and group study. Very self motivated. Specialized in sales, attention to detail, information retention, memorization, and efficiency during high intensity settings.</p>
       </div>
       <div class="row">
         <h3>Hazen Highschool</h3>
@@ -80,20 +96,40 @@
         <h2>Experience</h2>
       </div>
       <div class="row">
-        <h3></h3>
+        <h3>Turley Wine Cellars</h3>
+        <h4>  August 2019- August 2020</h4>
+        
       </div>
       <div class="row">
-        <h2>Achievements</h2>
+        <h3>John Howie Steak</h3>
+        <h4>November 2015- May 2019</h4>
+      </div>
+      <div class="row">
+        <h2>Certifications</h2>
+      </div>
+      <div class="row">
+        <h3> W3 Schools JavaScript certification with excellence</h3>
       </div>
     </div>
-  
+    <div class="col-1"></div>
+    <div class="col-3">
+      <h2 class="text-center">Contact Info</h2>
+      <ul>
+        <li>
+          <span><i class="fas fa-mobile-alt me-3"></i>(425)-523-4961</span>
+        </li>
+        <li>
+          <span id="email"><i class="far fa-envelope me-2"></i> zshug.somm@gmail.com</span>
+        </li>
+      </ul>
+       
 
-
+    </div>
   </div>
 
+
   
 
-</header>
 
 
 
