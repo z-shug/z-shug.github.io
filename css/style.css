@@ -9,3 +9,15 @@
   color: white;
   text-shadow: 0 0 .2rem rgba(248, 248, 248, 0.884);
 }
+
+.nav-link:hover {
+  color: rgb(201, 90, 186);
+}
+
+.nav-link:focus {
+  color: rgb(201, 90, 186);
+}
+
+.active {
+  color: rgb(201, 90, 186);
+}

@@ -7,15 +7,31 @@ body {
 
 span {
   font-size: 1.5rem;
+  
+}
+
+h2 {
+  color: rgb(141, 106, 161);
+  text-align: center;
+}
+
+.contact {
+  list-style-type: none;
+}
+
+.box {
+  background-color:rgba(201, 90, 186, 0.288);
+  border-radius: .5rem;
 }
 
 .header{
   color: rgb(141, 106, 161);
   text-shadow: 0 0 .4rem rgba(248, 248, 248, 0.884);
+ 
 }
 
 #personalPhoto {
-  max-width: 25rem;
+  max-width: 28rem;
   height: auto;
   position:relative;
   margin-left: auto;
@@ -24,5 +40,10 @@ span {
 }
 
 #languages {
-  margin-bottom: 11rem;
+  margin-bottom: 7rem;
+}
+
+#name {
+  margin-top: 2rem;
+  
 }
