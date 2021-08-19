@@ -1,11 +1,28 @@
+body {
+  background-image: url("/media/cloudImage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 span {
   font-size: 1.5rem;
 }
 
+.header{
+  color: rgb(141, 106, 161);
+  text-shadow: 0 0 .4rem rgba(248, 248, 248, 0.884);
+}
+
 #personalPhoto {
-  max-width: 30rem;
+  max-width: 25rem;
   height: auto;
   position:relative;
   margin-left: auto;
   margin-right: auto;
+  filter: drop-shadow(0 0 .8rem rgba(248, 248, 248, 0.884));
+}
+
+#languages {
+  margin-bottom: 11rem;
 }
